@@ -188,6 +188,8 @@ figcaption {
 .paragraph-bigger.cc-bigger-white-light {
   opacity: 0.6;
   font-family: Exo, sans-serif;
+  color: #fff;
+  text-align: center;
 }
 
 .button {
@@ -430,9 +432,9 @@ figcaption {
 .navigation-item {
   padding-top: 9px;
   padding-bottom: 9px;
-  opacity: 0.6;
+  opacity: 1;
   font-family: Exo, sans-serif;
-  color: #ffea00;
+  color: #fff200;
   font-size: 20px;
   line-height: 20px;
   font-weight: 500;
@@ -442,11 +444,16 @@ figcaption {
 
 .navigation-item:hover {
   opacity: 0.9;
-  color: #fbff00;
+  color: #fff200;
+  text-decoration: overline;
 }
 
 .navigation-item:active {
   opacity: 0.8;
+}
+
+.navigation-item:focus {
+  opacity: 1;
 }
 
 .navigation-item.w--current {
@@ -457,7 +464,7 @@ figcaption {
 
 .navigation-item.w--current:hover {
   opacity: 0.8;
-  color: #32343a;
+  color: #fff200;
 }
 
 .navigation-item.w--current:active {
@@ -1300,6 +1307,36 @@ figcaption {
   object-fit: contain;
   -o-object-position: 50% 50%;
   object-position: 50% 50%;
+}
+
+.html-embed {
+  margin-bottom: 0px;
+  background-color: transparent;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #fff200, transparent 67%);
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section-5 {
+  padding-top: 40px;
+}
+
+.link {
+  display: inline;
+  color: #fff;
+}
+
+.link:hover {
+  color: #fff200;
 }
 
 @media screen and (max-width: 991px) {
